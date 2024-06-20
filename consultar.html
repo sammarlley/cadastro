@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sistema de cadastro</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/responsive.css">
+  <script src="js/script.js"></script>
+</head>
+ <body id="vertical">
+  <div class="geral">
+    <header>
+      <div class="logo">
+        <a href="index.html"><img src="images/logo.webp"></a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="cadastro.html">Cadastrar</a></li>
+          <li><a href="login.html">Sair</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="wrapper">
+        <div class="pet-image image-consultar">
+          <img src="images/12.png">
+        </div>
+        <div id="consulta-content">
+          <script>listarCadastros();</script>
+          <p>Clique no botão para limpar<br/><input type="button" id="limpar" value="Limpar" class="" onclick="limparStorage()"></p>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

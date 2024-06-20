@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sistema de cadastro </title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/responsive.css">
+</head>
+<body>
+  <div class="geral">
+    <header>
+      <div class="logo">
+        <a href="index.html"><img src="images/logo.webp"></a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="consultar.html">Consultar</a></li>
+          <li><a href="login.html">Sair</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="wrapper">
+        <div class="set-image image-cadastro">
+          <img src="images/3.webp">
+        </div>
+
+        <div class="cadastro-content">        
+          <h1>Cadastro</h1>
+          <div class="bg-form">
+            <form action="#">
+              <div>
+                  <label>Nº do Registro</label>
+                  <input type="text" id="registro" placeholder="Ex: 01" />
+              </div>
+              <div>
+                  <label>Equipamento:</label>
+                  <input type="text" id="nome" placeholder="Insira o nome" />
+              </div>
+              <div>
+                  <label>Marca:</label>
+                  <input type="text" id="marca" placeholder="..." />
+              </div>
+              <div>
+                  <label>Modelo:</label>
+                  <input type="text" id="modelo" placeholder="..." />
+              </div>
+              <div>
+                  <label>Número de Série:</label>
+                  <input type="text" id="serie" placeholder="..." />
+              </div>
+              <div id="btn-envio">
+                <input type="button" value="cadastrar" class="" onclick="preenchimentoCampos('registro', 'nome', 'marca', 'modelo', 'serie')">
+                <input type="reset" id="cancelar" class="" value="Cancelar"/>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="js/script.js"></script>
+  <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+</body>
+</html>

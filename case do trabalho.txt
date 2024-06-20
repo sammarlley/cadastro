@@ -1,0 +1,9 @@
+Entregue aqui o estudo de caso da consultoria Wicca.
+
+Seu grupo foi contratado para documentar e desenvolver um sistema para controlar os ativos de informática, para tanto será desenvolvido um Cadastro de Equipamentos onde serão cadastrados os computadores, telefones ip, impressoras e outros bens de informática que você achar necessário.
+
+Faça o levantamentos dos requisitos funcionais e não funcionais,
+Crie pelo menos um diagrama de caso de uso, um diagrama de sequencia, um fluxo de informações por exemplo como é o processo para se adquirir um computador.
+E um breve cronograma de desenvolvimento e implementação do software.
+
+Entregar um arquivo único com todos os documentos pode ser compactado e  não esquecer de colocar um arquivo com os componentes do grupo.
